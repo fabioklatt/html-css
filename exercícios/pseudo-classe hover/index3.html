@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: chocolate;
+            border: solid 1px;
+            height: 200px;
+            width: 200px;
+            float: left;
+            
+            text-align: center;
+            margin-left: 2px;
+            
+            
+            
+            
+
+        }
+
+        #div1:hover {
+            background-color: black;
+            color: white;
+        }
+
+        #div2 > p {
+            display: none;
+            border: solid 1px;
+        }
+
+       #div2:hover > p {
+           display: block;
+       }
+
+        a {
+            color: red;
+            text-decoration: none;
+        }
+        a:visited {
+            color: aqua;
+        }
+
+        
+
+        a:active {
+            color: chartreuse;
+        }
+
+        a::after {
+            content: '©';
+        }
+
+       
+
+    </style>
+</head>
+<body>
+    <div id="div1"><p style="border: solid 1px; padding: 2px; line-height: 2px;">bom dia</p></div>
+    <div id="div2">
+       
+        <p>acarajé</p>
+        <p>lasanha</p>
+        <p>costela</p>
+    </div>
+
+    <div id="div3"><p>voos</p></div>
+ <!---
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://google.com">GOOGLE</a></li>
+        <li><a href="https://madonna.com" class="mad">MADONNA</a></a></li>
+        <li><a href="https://youtube.com">YOUTUBE</a></li>
+    </ul>
+-->
+</body>
+</html>

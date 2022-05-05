@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando HOVER</title>
+    <style>
+        
+        body {
+            background-color: rgb(116, 116, 243);
+        }
+        
+        div {
+            height: 200px;
+            width: 200px;
+            margin: auto;
+            background-color: white;
+            text-align: center;
+            border: solid 1px;
+            float: left;
+
+        }
+        
+       div.div1:hover > p {
+           display: none;
+       }
+
+       div.div2:hover {
+           background-color: aqua;
+       }
+
+       .div3 > a:visited {
+         color: rgb(255, 0, 0);
+       }
+
+       .div3:hover > a {
+          background-color: chartreuse; 
+          font-size: larger;
+       }
+
+       
+
+
+
+      
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <h1>HOVER SELECTOR</h1>
+         <p class="p1">passe o mouse para desaparecer</p>
+    </div>
+    <div class="div2">
+        <h2>mudar de cor</h2> 
+    </div>
+    <div class="div3">
+        <a href="http://www.google.com.br" target="_blank">GOOGLE</a>
+    </div>
+    <div class="div4">
+         
+    </div>
+    
+</body>
+</html>

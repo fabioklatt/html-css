@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #div1 {
+           
+            background-color: blue;
+            float: left;
+            width: 20%;
+        }
+
+        #div2 {
+            background-color: red;
+            float: left;
+            width: 60%;
+
+        }
+
+        #div3 {
+            background-color: yellow;
+            float: left;
+            width: 20%;
+        }
+
+        @media screen and (max-width:700px) {
+            #div1,  #div2, #div3{ 
+                width: 100%;}
+            }
+    </style>
+</head>
+<body>
+    <div id="div1">
+       <p>oi</p>
+    </div>
+    <div id="div2">
+      <p>oi</p>
+    </div>
+    <div id="div3">
+       <p>oi</p>
+    </div>
+</body>
+</html>

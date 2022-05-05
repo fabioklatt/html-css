@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            
+            background-color: rgb(139, 139, 230);
+            border: 1px solid;
+            width: 200px;
+            height: 200px;
+
+        }
+
+        div:hover {
+            background-color: aqua;
+        }
+
+        div#d1 > p {
+            display: none;
+        }
+
+        div#d1:hover > p {
+            display: block;
+            color: white;
+            background-color: brown;
+
+        }
+
+        div#d2 > p {
+            display: none;
+        }
+
+        div#d2:hover > p{
+            display: block;
+            color: black;
+        }
+
+        div#d2:hover > h3 {
+            display: none;
+        }
+
+        div#d3 > p {
+           display: none;
+        }
+
+        div#d3:hover > h3 {
+            display: none;
+        }
+
+        div#d3:hover > p {
+            display: block;
+        }
+
+        #d3 > h3 {
+            text-align: center ;
+            line-height: 160px;
+        }
+
+        #d3 > p {
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">
+        <p>Bom dia</p>
+        <p>Guten Morgen</p>
+        <p>Gute Nacht</p>
+    </div>
+    <div id="d2">
+        <h3>menu do dia</h3>
+        <p>lagosta</p>
+        <p>camarão</p>
+        <p>acarajé</p>
+
+    </div>
+    <div id="d3">
+        <h3>MENU DO DIA</h3>
+        <p>LASANHA</p>
+        <p>SPAGHETTI</p>
+        <p>FETTUCCINI</p>
+        <p>PIZZA</p>
+    </div>
+    
+</body>
+</html>
