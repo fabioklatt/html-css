@@ -1,0 +1,25 @@
+@charset "UTF-08"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Noto+Serif&display=swap');
+
+
+* {
+   padding: 0px;
+   margin: 0px;  
+}
+
+:root {
+    --var: #404040;
+    --fontepadrao: 'Crimson Pro', serif; 
+    --fontetam: 18px;
+}
+
+header {
+    font-family: var(--fontepadrao);
+    font-size: var(--fontetam);
+}  
+
+#link1 {
+    
+}
+
