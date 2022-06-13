@@ -5,10 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imagem de fundo</title>
+    <style>
+
+        body {
+            background-image: url('imagens/wallpaper001.jpg');
+        }
+
+        .square {
+            
+            height: 200px;
+            width: 200px;
+            border: solid 2px black;
+            border-radius: 2px;
+            display: inline-block;
+        }
+
+        #s1 {
+            background-image: url('imagens/wallpaper002.jpg');
+        }
+
+        #s2 {
+            background-image: linear-gradient(to left, darkblue, skyblue);
+        }
+
+        #s3 {
+            background-image: url('imagens/wallpaper001.jpg');
+        }
+
+        
+
+    </style>
 </head>
 <body>
-    <h2>bom dia</h2>
-    <p>oi</p>
+    <div class="square" id="s1"></div>
+    <div class="square" id="s2"></div>
+    <div class="square" id="s3"></div>
+
+    
     
 </body>
 </html>
